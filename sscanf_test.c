@@ -10,3 +10,4 @@ int main()
 	nRet = sscanf(szSrc, "%[0-9.]-%d", szDeviceID, &nExtension);
 	printf("nRet = %d.nType=%d...szDeviceID=%s...nExtension=%d...\n", nRet, nType, szDeviceID, nExtension);
 }
+
